@@ -7,16 +7,16 @@
     >
     <v-toolbar-title class="">MIR</v-toolbar-title>
     <v-spacer></v-spacer>
-    <v-btn class="mx-6" color=purple to='/1' activeClass="blue">
+    <v-btn class="mx-6" color=green rounded to='/1' activeClass="orange">
       first
     </v-btn>
-    <v-btn class="mx-6" color=purple to='/2' activeClass="blue">
+    <v-btn class="mx-6" color=green rounded to='/2' activeClass="orange">
       second
     </v-btn>
-    <v-btn class="mx-6" color=purple to='/3' activeClass="blue">
+    <v-btn class="mx-6" color=green rounded to='/3' activeClass="orange">
       third
     </v-btn>
-    <v-btn class="mx-6" color=purple to='/4' activeClass="blue">
+    <v-btn class="mx-6" color=green rounded to='/4' activeClass="orange">
       fourth
     </v-btn>
     </v-app-bar>
