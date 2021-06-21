@@ -3,9 +3,10 @@
     <v-app-bar
       app
       color="primary"
-      class="d-flex justify-center"
       dark
     >
+    <v-toolbar-title class="mr-auto ml-4 font-weight-black">MIR</v-toolbar-title>
+    <v-container class="d-flex justify-center">
     <v-btn class="mx-6" color=purple to='/1' activeClass="blue">
       first
     </v-btn>
@@ -18,6 +19,7 @@
     <v-btn class="mx-6" color=purple to='/4' activeClass="blue">
       fourth
     </v-btn>
+    </v-container>
     
     </v-app-bar>
 
