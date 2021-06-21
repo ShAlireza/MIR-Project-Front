@@ -1,27 +1,23 @@
 <template>
   <v-container>
-      <v-file-input
-          outlined
-          dense
-          rounded
-          label="Information File"
-          accept=".json"
-          show-size
-          v-model="infoFile"
-          append-icon="mdi-paperclip"
-          prepend-icon=""
-        />
-    <v-text-field
-      label="Number of Articles"
-      outlined
+    <v-file-input
+      class="my-6"
       dense
-      rounded
+      label="Information File"
+      accept=".json"
+      show-size
+      v-model="infoFile"
+    />
+    <v-text-field
+      class="my-6"
+      label="Number of Articles"
+      dense
       autocomplete="off"
       v-model="alfa"
       type="number"
     ></v-text-field>
 
-    <v-btn color="primary" rounded>submit</v-btn>
+    <v-btn color="green" block>submit</v-btn>
   </v-container>
 </template>
 
@@ -29,11 +25,10 @@
 export default {
   data() {
     return {
-      infoFile:null,
+      infoFile: null,
       alfa: "",
     };
   },
-  methods: {
-  },
+  methods: {},
 };
 </script>
