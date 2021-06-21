@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar
       app
-      color="primary"
+      color="blue-gray"
       dark
     >
     <v-toolbar-title class="">MIR</v-toolbar-title>
