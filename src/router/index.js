@@ -26,7 +26,19 @@ const routes = [
   {
     path: '/4',
     name: 'fourth',
-    component: Fourth
+    component: Fourth,
+    children:[
+      {
+        path:'/4-1',
+        component: Fourth,
+        name: 'fourth',
+      },
+      {
+        path:'/4-2',
+        component: Fourth,
+        name: 'fourth',
+      }
+    ]
   },
   
 ]
